@@ -1,8 +1,7 @@
 # ![RealWorld Example App](logo.png)
 
-> ### **Java 21 + Spring Boot 3** codebase containing real-world examples (CRUD, authentication, advanced patterns, etc.) that adheres to the [RealWorld](https://github.com/gothinkster/realworld) specification and API.
+> ### **Java 21 + Spring Boot 3** codebase containing real-world examples (CRUD, authentication, advanced patterns, etc.)
 
-### [Demo](https://demo.realworld.io/) &nbsp;&nbsp;&nbsp;&nbsp; [RealWorld](https://github.com/gothinkster/realworld)
 
 This codebase demonstrates a fully-fledged fullstack application built with **Java 21 + Spring Boot 3**, including CRUD operations, authentication, routing, pagination, and more.
 
@@ -104,8 +103,6 @@ Many developers using JPA tend to use `Long` as the ID type. However, consider w
 
 -  [schema.sql](module/persistence/src/main/resources/schema.sql)
 
-![ERD Image](https://github.com/shirohoo/realworld-java21-springboot3/assets/71188307/2ed3b129-f9ec-4431-8959-374f317b7224)
-
 ---
 
 ## Getting Started
@@ -151,6 +148,3 @@ You can also import the [api-docs/openapi.yaml](api-docs/openapi.yaml) file into
 1. Start the application (**important**)
 2. [Run E2E tests](api-docs/README.md#running-api-tests-locally)
 
-#### Performance
-
-![Performance Image](https://github.com/shirohoo/realworld-java21-springboot3/assets/71188307/f74ebb9b-327d-4f31-8299-63dda175c972)
